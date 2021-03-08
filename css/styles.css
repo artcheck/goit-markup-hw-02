@@ -148,6 +148,51 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 /* Section */
 
+.section{}
+
+
+/* Features */
+
+
+.features{
+  list-style: none;
+  display: flex;
+  font-family: Roboto;
+  padding: 80px 0px;
+
+}
+
+.features-lists{
+  padding: 1px 63px;
+}
+
+.features-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+    
+  color:var(--title-text-color);
+}
+
+.features-description{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  letter-spacing: 0.03em;
+  
+  color:var(--title-text-color);
+  
+}
