@@ -166,7 +166,7 @@ body {
 
 }
 
-.features-lists{
+.features-list{
   padding: 1px 63px;
 }
 
@@ -195,4 +195,30 @@ body {
   
   color:var(--title-text-color);
   
+}
+
+/* Our stack */
+
+.stack-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--title-text-color);
+
+}
+
+.stack{
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  padding-top: 15px;
+}
+
+.stack-list{
+  padding: 1px 15px;
 }
