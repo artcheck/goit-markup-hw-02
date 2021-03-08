@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap");
 
 /*Page colours*/
 
@@ -11,11 +10,14 @@
 }
 
 body {
+  position: relative;
+  margin: 0 auto;
   color: var(--title-text-color);
+  width: 1600px;
+  height: 2349px;
 }
 
 /*Page navigation*/
-
 
 /* ul > a {
   position: unset;
@@ -35,9 +37,9 @@ body {
  
   */
 
-.nav{
+.nav {
   background-color: var(--primary-white-color);
-  height: 50px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -54,12 +56,10 @@ body {
 .logo-black {
   font-size: 26px;
   font-weight: bold;
-  font-family: 'raleway';
+  font-family: "raleway";
   letter-spacing: 0.03em;
   height: 31px;
-  
 }
-
 
 .nav-list {
   width: 280px;
@@ -71,7 +71,7 @@ body {
 
 .nav-link,
 .cont-link {
-  font-family: 'roboto';
+  font-family: "roboto";
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -79,7 +79,6 @@ body {
   font-size: 14px;
   width: 77px;
   text-decoration-line: none;
-  
 }
 
 .nav-link:hover,
@@ -100,16 +99,55 @@ body {
   font-family: "roboto";
   float: right;
   align-items: center;
- 
 }
 
 /* Main content */
 
-.hero {
-  height: 300px;
+/* Hero */
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
   background-color: var(--primary-text-color);
   color: var(--primary-white-color);
 }
-h1{
-  margin: 0 auto;
+
+.hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }
+.hero-button {
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: var(--accent-color);
+  /* identical to box height, or 187% */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Section */
+
