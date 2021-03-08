@@ -3,7 +3,7 @@
 /*Page colours*/
 
 :root {
-  --primary-text-color: #2f303a;
+  --primary-bacground-color: #2f303a;
   --title-text-color: #000000;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
@@ -60,6 +60,7 @@ body {
   font-family: "raleway";
   letter-spacing: 0.03em;
   height: 31px;
+  
 }
 
 .nav-list {
@@ -70,6 +71,7 @@ body {
   align-items: center;
 }
 
+.logo-link,
 .nav-link,
 .cont-link {
   font-family: "roboto";
@@ -112,7 +114,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 600px;
-  background-color: var(--primary-text-color);
+  background-color: var(--primary-bacground-color);
   color: var(--primary-white-color);
 }
 
@@ -262,3 +264,51 @@ color: var(--title--ext-color);
   height: 380px;
   box-shadow: 1px 2px 1px lightgray;
 }
+
+/* Footer */
+
+.footer{
+  height: 200px;
+  padding: 100px 120px;
+  background-color: var(--primary-bacground-color);
+  
+}
+
+.logo-white{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "raleway";
+  letter-spacing: 0.03em;
+  height: 31px;
+  color: #ffffff;
+
+}
+
+.footer-text{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+
+color: #FFFFFF;
+}
+.footer-address{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+text-decoration-line: none;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
