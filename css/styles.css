@@ -7,6 +7,7 @@
   --title-text-color: #000000;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --additional-background-colour: #F5F4FA;
 }
 
 body {
@@ -221,4 +222,43 @@ color:var(--title-text-color);
 
 .stack-list{
   padding: 1px 15px;
+}
+
+/* Our team */
+
+.team-bgcolour{
+  height: 650px;
+  background-color: var(--additional-background-colour) ;
+}
+
+.team-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 100px;
+
+color: var(--title--ext-color);
+
+}
+
+.team{
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+
+.team-list{
+  padding: 0px 20px;
+}
+
+.team-styles{
+  background-color: var(--primary-white-color);
+  text-align: center;
+  height: 380px;
+  box-shadow: 1px 2px 1px lightgray;
 }
