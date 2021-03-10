@@ -16,26 +16,6 @@
   height: 2349px;
 }
 
-/*Page navigation*/
-
-/* ul > a {
-  position: unset;
-  width: 145px;
-
-  left: 215px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-
-  // identical to box height 
-
-  letter-spacing: 0.03em;
-  }
- 
-  */
-
 .nav {
   background-color: var(--primary-white-color);
   height: 80px;
@@ -338,7 +318,7 @@
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.stack-portfolio_list {
+.stack-portfolio {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -346,7 +326,7 @@
   height: 1548px;
   margin: 0 auto;
 }
-.portfolio-list_element {
+.portfolio_list {
   padding: 10px 20px;
 }
 .portfolio-link {
