@@ -90,6 +90,9 @@ header{
 /* Hero */
 
 .hero-content {
+  margin: 0 auto;
+    width: 1600px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,14 +146,22 @@ header{
 /* Features */
 
 .features {
+  margin: 0 auto;
+    width: 1170px;
+  height: 101px;
   list-style: none;
   display: flex;
   font-family: Roboto;
-  padding: 80px 0px;
+  padding-top: 50px;
 }
 
+.features-section{
+  padding-top: 80px;
+  width: 1600px;
+  margin: 0 auto;
+}
 .features-list {
-  padding: 1px 63px;
+  padding: 0px 12px;
 }
 
 .features-title {
@@ -166,11 +177,13 @@ header{
 }
 
 .features-description {
+  width: 270px;
+  height: 75px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 0.8em;
+  line-height: 1.7em;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -181,6 +194,7 @@ header{
 /* Our stack */
 
 .stack-title {
+  padding-top: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -205,7 +219,9 @@ header{
 
 /* Our team */
 
-.team-bgcolour {
+.team-content {
+  margin: 0 auto;
+  width: 1600px;
   height: 650px;
   background-color: var(--additional-background-colour);
 }
@@ -245,10 +261,16 @@ header{
 
 .footer {
   margin: 0 auto;
+  display: flex;
   width: 1600px;
-  height: 200px;
-  padding: 100px 120px;
-  background-color: var(--primary-bacground-color);
+  flex-direction: column;
+  height: 252px;
+  justify-content: space-around;
+  /* padding: 98px 50px; */
+  background-color: var(--primary-bacground-color)
+}
+.footer-style{
+  padding-left: 150px;
 }
 
 .logo-white {
@@ -286,7 +308,7 @@ header{
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Portfolio page */
+/* Portfolio main content */
 
 .stack-filter {
   margin: 0 auto;
