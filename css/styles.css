@@ -108,7 +108,7 @@
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
-  line-height: 2em;
+  line-height: 1.5em;
   /* or 136% */
 
   text-align: center;
@@ -232,11 +232,10 @@
   justify-content: center;
   list-style: none;
   display: flex;
-  padding-top: 10px;
 }
 
 .team-list {
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 .team-styles {
   background-color: var(--primary-white-color);
@@ -273,7 +272,7 @@
   background-color: var(--primary-bacground-color);
 }
 .footer-style {
-  padding-left: 150px;
+  padding-left: 215px;
 }
 .logo-white {
   font-size: 26px;
