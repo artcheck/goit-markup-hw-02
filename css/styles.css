@@ -206,7 +206,7 @@
 }
 
 .stack-list {
-  padding: 1px 10px;
+  padding: 1px 15px;
 }
 
 /* Our team */
@@ -289,6 +289,7 @@
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 .footer-cont {
   font-family: Roboto;
