@@ -68,9 +68,11 @@
 }
 .nav-link:hover,
 .nav-link:focus,
+.nav-link:active,
 .cont-link:hover,
 .cont-link:focus,
 .footer-cont:hover,
+
 .footer-cont:focus {
   color: var(--accent-color);
 }
