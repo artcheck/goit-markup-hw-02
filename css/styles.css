@@ -61,6 +61,7 @@
 .nav-link {
   font-family: roboto;
   letter-spacing: 0.02em;
+  font-weight: 500;
   color: var(--title-text-color);
   font-size: 14px;
   width: 77px;
