@@ -351,6 +351,17 @@
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.active-filter{
+  background-color: var(--accent-color);
+  font-family: "Roboto";
+  color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  border-style: none;
+  padding: 2px 20px;
+  height: 38px;
+}
 .stack-portfolio {
   display: flex;
   flex-wrap: wrap;
