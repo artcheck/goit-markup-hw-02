@@ -67,6 +67,15 @@
   width: 77px;
   text-decoration-line: none;
 }
+.active-page{
+  font-family: roboto;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  width: 77px;
+  text-decoration-line: none;
+  color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active,
