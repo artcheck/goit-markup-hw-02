@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body style="color: var(--titel-text-color); font-family: railway">
+    <!--Header-->
+
+    <header class="header">
+      <nav class="nav">
+        <a class="logo-link" href="/index.html">
+          <span class="logo-blue">Web</span
+          ><span class="logo-black">Studio</span>
+        </a>
+
+        <ul class="nav-list">
+          <li><a class="nav-link" href="./index.html">Студія</a></li>
+          <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav-link" href="./contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+      <ul class="contact-list">
+        <li>
+          <a class="cont-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="cont-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+
+    <!--Main content-->
+
+    <main>
+      <!--Hero-->
+
+      <section class="hero-content">
+        <h1 class="hero">
+          Ефективні рішення <br />
+          для вашого бізнесу
+        </h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
+      </section>
+
+      <!--Features-->
+
+      <section class="fetures-section">
+        <h2></h2>
+        <ul class="features">
+          <li class="features-list">
+            <h3 class="features-title">Увага до деталей</h3>
+            <p class="features-description">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="features-list">
+            <h3 class="features-title">Пунктуальність</h3>
+            <p class="features-description">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="features-list">
+            <h3 class="features-title">Планування</h3>
+            <p class="features-description">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="features-list">
+            <h3 class="features-title">Сучасні технології</h3>
+            <p class="features-description">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!--Our stack-->
+      <section>
+        <h3 class="stack-title">Чим ми займаємося</h3>
+        <ul class="stack">
+          <li class="stack-list">
+            <img
+              src="./images/web_development.jpg"
+              alt="Розробка ваших сайтів"
+              width="370"
+            />
+          </li>
+          <li class="stack-list">
+            <img
+              src="./images/mobile_app_development.jpg"
+              alt="Розробка ваших мобільних додатків"
+              width="370"
+            />
+          </li>
+          <li class="stack-list">
+            <img
+              src="./images/design.jpg"
+              alt="Дизайн ваших проєктів"
+              width="370"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <!--Our team-->
+      <section class="team-content">
+        <h3 class="team-title">Наша команда</h3>
+        <ul class="team">
+          <li class="team-list">
+            <div class="team-styles">
+              <img
+                src="./images/product_designer.jpg"
+                alt="Product Designer"
+                width="270"
+              />
+              <h4>Ігор Дем'яненко</h4>
+              <p>Product Designer</p>
+            </div>
+          </li>
+          <li class="team-list">
+            <div class="team-styles">
+              <img
+                src="./images/frontend_developer.jpg"
+                alt="Frontend Developer"
+                width="270"
+              />
+              <h4>Ольга Репіна</h4>
+              <p>Frontend Developer</p>
+            </div>
+          </li>
+          <li class="team-list">
+            <div class="team-styles">
+              <img src="./images/marketing.jpg" alt="Marketing" width="270" />
+              <h4>Микола Тарасов</h4>
+              <p>Marketing</p>
+            </div>
+          </li>
+          <li class="team-list">
+            <div class="team-styles">
+              <img
+                src="./images/ui_designer.jpg"
+                alt="UI Designer"
+                width="270"
+              />
+              <h4>Михайло Єрмаков</h4>
+              <p>UI Designer</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer class="footer">
+      <div class="footer-style">
+        <a class="nav-link" href="/index.html"
+          ><span class="logo-blue">Web</span
+          ><span class="logo-white">Studio</span></a
+        >
+        <address>
+          <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
+          <a class="footer-cont" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <br />
+          <br />
+          <a class="footer-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
