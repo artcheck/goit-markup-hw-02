@@ -113,8 +113,7 @@ ul {
 /* Hero */
 
 .hero-content {
-  margin: 0 auto;
-
+  margin: 0 -8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,7 +268,7 @@ ul {
 /* Footer */
 
 .footer {
-  margin: 0 auto;
+  margin: -8px;
   display: flex;
   flex-direction: column;
   height: 252px;
