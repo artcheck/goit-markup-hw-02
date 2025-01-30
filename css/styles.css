@@ -2,7 +2,7 @@
   --primary-bacground-color: #2f303a;
   --title-text-color: #212121;
   --aditional-text-color: #757575;
-  --accent-color: #4D5AE5;
+  --accent-color: #4d5ae5;
   --primary-white-color: #ffffff;
   --additional-background-colour: #f5f4fa;
 }
@@ -143,7 +143,7 @@ ul {
   left: 636px;
   top: 428px;
   cursor: pointer;
-  padding: 32px 16px ;
+  padding: 32px 16px;
   background: var(--accent-color);
   display: flex;
   justify-content: center;
@@ -208,9 +208,8 @@ ul {
 
 .stack {
   justify-content: center;
-
   display: flex;
-  padding-top: 15px;
+  padding: 15px 0 69px 0;
 }
 
 .stack-list {
@@ -250,6 +249,7 @@ ul {
   width: 264px;
   height: 380px;
   box-shadow: 1px 2px 1px lightgray;
+  inline-size: fit-content;
 }
 .team-member_title {
   font-family: roboto;
