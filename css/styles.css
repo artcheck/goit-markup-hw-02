@@ -40,9 +40,8 @@ ul {
 .logo-blue,
 .logo-black {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 800;
   font-family: "Raleway";
-  letter-spacing: 0.03em;
   height: 31px;
 }
 .nav-list {
@@ -128,7 +127,7 @@ ul {
   color: var(--primary-white-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.50rem;
+  line-height: 1.5rem;
   width: 169px;
   height: 56px;
   left: 636px;
@@ -166,7 +165,7 @@ ul {
 .features-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.50rem;
+  line-height: 1.5rem;
   letter-spacing: 0.03em;
 }
 
@@ -174,7 +173,7 @@ ul {
   width: 270px;
   height: 75px;
   font-size: 16px;
-  line-height:1.50rem;
+  line-height: 1.5rem;
   letter-spacing: 0.03em;
 }
 
@@ -182,7 +181,7 @@ ul {
 
 .stack-title {
   font-size: 36px;
-  line-height: 1.50rem;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -207,7 +206,7 @@ ul {
 
 .team-title {
   font-size: 36px;
-  line-height: 1.50rem;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title--ext-color);
@@ -263,15 +262,14 @@ ul {
   font-family: "raleway";
   letter-spacing: 0.03em;
   height: 31px;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .footer-text {
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.50rem;
+  line-height: 1.5rem;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration-line: none;
   margin-bottom: 20px;
   width: 264px;
@@ -330,8 +328,6 @@ ul {
   margin: 0 auto;
 }
 .portfolio_list {
-  height: 420px;
-  width: 360px;
   margin: 15px;
   border: 0.5px;
   border-style: groove;
